@@ -1,0 +1,6 @@
+framework module Pods_AccioTests {
+  umbrella header "Pods-AccioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

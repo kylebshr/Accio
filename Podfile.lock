@@ -1,0 +1,18 @@
+PODS:
+  - Hero (0.0.3)
+  - R.swift (3.2.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+
+DEPENDENCIES:
+  - Hero
+  - R.swift
+
+SPEC CHECKSUMS:
+  Hero: 003c60877d8200cbafae0c40c4ee71e9b7cb64f8
+  R.swift: 207a372a2b5977caef440c696a368009460641d1
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+
+PODFILE CHECKSUM: 55803028ca0f0136d56a15ea35896802bdf54065
+
+COCOAPODS: 1.1.1
