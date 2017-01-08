@@ -63,16 +63,16 @@ struct R: Rswift.Validatable {
   
   /// This `R.segue` struct is generated, and contains static references to 1 view controllers.
   struct segue {
-    /// This struct is generated for `ViewController`, and contains static references to 1 segues.
-    struct viewController {
+    /// This struct is generated for `SelectAirPodViewController`, and contains static references to 1 segues.
+    struct selectAirPodViewController {
       /// Segue identifier `locate`.
-      static let locate: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, ViewController, LocatingViewController> = Rswift.StoryboardSegueIdentifier(identifier: "locate")
+      static let locate: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, SelectAirPodViewController, LocatingViewController> = Rswift.StoryboardSegueIdentifier(identifier: "locate")
       
       /// Optionally returns a typed version of segue `locate`.
       /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
       /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
-      static func locate(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, ViewController, LocatingViewController>? {
-        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.viewController.locate, segue: segue)
+      static func locate(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, SelectAirPodViewController, LocatingViewController>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.selectAirPodViewController.locate, segue: segue)
       }
       
       fileprivate init() {}

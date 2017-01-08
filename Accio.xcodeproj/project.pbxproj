@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271601FA1E21B9E300055834 /* LocatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271601F91E21B9E300055834 /* LocatingViewController.swift */; };
+		271601FC1E21B9FA00055834 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271601FB1E21B9FA00055834 /* Side.swift */; };
+		271601FE1E21BA4000055834 /* AirPodBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271601FD1E21BA4000055834 /* AirPodBreathing.swift */; };
 		275756D51E2195BB00D54252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275756D41E2195BB00D54252 /* AppDelegate.swift */; };
-		275756D71E2195BB00D54252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275756D61E2195BB00D54252 /* ViewController.swift */; };
+		275756D71E2195BB00D54252 /* SelectAirPodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275756D61E2195BB00D54252 /* SelectAirPodViewController.swift */; };
 		275756DA1E2195BB00D54252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275756D81E2195BB00D54252 /* Main.storyboard */; };
 		275756DC1E2195BB00D54252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275756DB1E2195BB00D54252 /* Assets.xcassets */; };
 		275756DF1E2195BB00D54252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275756DD1E2195BB00D54252 /* LaunchScreen.storyboard */; };
@@ -29,9 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271601F91E21B9E300055834 /* LocatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatingViewController.swift; sourceTree = "<group>"; };
+		271601FB1E21B9FA00055834 /* Side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
+		271601FD1E21BA4000055834 /* AirPodBreathing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirPodBreathing.swift; sourceTree = "<group>"; };
 		275756D11E2195BB00D54252 /* Accio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275756D41E2195BB00D54252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		275756D61E2195BB00D54252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		275756D61E2195BB00D54252 /* SelectAirPodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAirPodViewController.swift; sourceTree = "<group>"; };
 		275756D91E2195BB00D54252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		275756DB1E2195BB00D54252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275756DE1E2195BB00D54252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				275756D41E2195BB00D54252 /* AppDelegate.swift */,
-				275756D61E2195BB00D54252 /* ViewController.swift */,
+				275756D61E2195BB00D54252 /* SelectAirPodViewController.swift */,
+				271601F91E21B9E300055834 /* LocatingViewController.swift */,
+				271601FD1E21BA4000055834 /* AirPodBreathing.swift */,
+				271601FB1E21B9FA00055834 /* Side.swift */,
 				275756D81E2195BB00D54252 /* Main.storyboard */,
 				275756DB1E2195BB00D54252 /* Assets.xcassets */,
 				275756DD1E2195BB00D54252 /* LaunchScreen.storyboard */,
@@ -349,9 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275756D71E2195BB00D54252 /* ViewController.swift in Sources */,
+				275756D71E2195BB00D54252 /* SelectAirPodViewController.swift in Sources */,
 				275756D51E2195BB00D54252 /* AppDelegate.swift in Sources */,
+				271601FC1E21B9FA00055834 /* Side.swift in Sources */,
 				27D07EBF1E21AB20008FF12E /* R.generated.swift in Sources */,
+				271601FA1E21B9E300055834 /* LocatingViewController.swift in Sources */,
+				271601FE1E21BA4000055834 /* AirPodBreathing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
