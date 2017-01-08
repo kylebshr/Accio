@@ -502,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6272C7216E9B2E2FCBB507BF /* Pods-Accio.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = Accio/Info.plist;
@@ -516,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E4A15E2D23D63FB5F12322B /* Pods-Accio.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = Accio/Info.plist;
