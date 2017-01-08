@@ -44,7 +44,7 @@ class LocatingViewController: UIViewController, AirPodBreathing {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
 
-        [leftButton, rightButton].forEach { $0.transform = .identity }
+        [leftButton, rightButton].forEach(resetBreath)
     }
 
     override func viewDidAppear(_ animated: Bool) {
