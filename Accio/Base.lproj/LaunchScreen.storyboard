@@ -1,27 +1,64 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Agw-QG-WHn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="LN3-jr-BoA">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="Agw-QG-WHn" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="KEJ-7w-U1T"/>
+                        <viewControllerLayoutGuide type="bottom" id="o2G-sP-n4z"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Hst-Tw-xGv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blJ-yv-Eia">
+                                <rect key="frame" x="170" y="663" width="36" height="4"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="KCl-aZ-0gL"/>
+                                    <constraint firstAttribute="width" constant="36" id="aJP-GH-QTR"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6B-Lo-RmB">
+                                <rect key="frame" x="206" y="427" width="95" height="200"/>
+                                <state key="normal" image="Right"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQv-Wm-yCJ">
+                                <rect key="frame" x="75" y="427" width="95" height="200"/>
+                                <state key="normal" image="Left"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="blJ-yv-Eia" firstAttribute="centerX" secondItem="Hst-Tw-xGv" secondAttribute="centerX" id="2gv-SA-x6n"/>
+                            <constraint firstItem="qQv-Wm-yCJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hst-Tw-xGv" secondAttribute="leadingMargin" id="766-eD-UTT"/>
+                            <constraint firstItem="o2G-sP-n4z" firstAttribute="top" secondItem="blJ-yv-Eia" secondAttribute="bottom" id="7cN-Jq-RRs"/>
+                            <constraint firstItem="o2G-sP-n4z" firstAttribute="top" secondItem="qQv-Wm-yCJ" secondAttribute="bottom" constant="40" id="CA0-Ka-E6K"/>
+                            <constraint firstItem="o2G-sP-n4z" firstAttribute="top" secondItem="N6B-Lo-RmB" secondAttribute="bottom" constant="40" id="IN4-1h-RVb"/>
+                            <constraint firstItem="blJ-yv-Eia" firstAttribute="leading" secondItem="qQv-Wm-yCJ" secondAttribute="trailing" id="QcK-8Z-ut6"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="N6B-Lo-RmB" secondAttribute="trailing" id="RKT-Zc-Zrv"/>
+                            <constraint firstItem="N6B-Lo-RmB" firstAttribute="leading" secondItem="blJ-yv-Eia" secondAttribute="trailing" id="ttr-fo-rq7"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzQ-kG-JFo" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="971.25" y="36.971830985915496"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Left" width="95" height="200"/>
+        <image name="Right" width="95" height="200"/>
+    </resources>
 </document>

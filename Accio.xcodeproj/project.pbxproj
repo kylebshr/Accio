@@ -13,10 +13,18 @@
 		272F5C161E21BC9100E53277 /* Meter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F5C151E21BC9100E53277 /* Meter.swift */; };
 		275756D51E2195BB00D54252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275756D41E2195BB00D54252 /* AppDelegate.swift */; };
 		275756D71E2195BB00D54252 /* SelectAirPodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275756D61E2195BB00D54252 /* SelectAirPodViewController.swift */; };
-		275756DA1E2195BB00D54252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275756D81E2195BB00D54252 /* Main.storyboard */; };
+		275756DA1E2195BB00D54252 /* Locate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275756D81E2195BB00D54252 /* Locate.storyboard */; };
 		275756DC1E2195BB00D54252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275756DB1E2195BB00D54252 /* Assets.xcassets */; };
 		275756DF1E2195BB00D54252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275756DD1E2195BB00D54252 /* LaunchScreen.storyboard */; };
 		275756EA1E2195BB00D54252 /* AccioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275756E91E2195BB00D54252 /* AccioTests.swift */; };
+		27C46A3B1E21F4010004FA7D /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C46A371E21F4010004FA7D /* Rubik-Bold.ttf */; };
+		27C46A3C1E21F4010004FA7D /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C46A381E21F4010004FA7D /* Rubik-Light.ttf */; };
+		27C46A3D1E21F4010004FA7D /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C46A391E21F4010004FA7D /* Rubik-Medium.ttf */; };
+		27C46A3E1E21F4010004FA7D /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C46A3A1E21F4010004FA7D /* Rubik-Regular.ttf */; };
+		27C46A431E21F9920004FA7D /* UserDefaults+AirPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C46A421E21F9920004FA7D /* UserDefaults+AirPods.swift */; };
+		27C46A451E21FADF0004FA7D /* Name.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C46A441E21FADF0004FA7D /* Name.storyboard */; };
+		27C46A471E21FD830004FA7D /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C46A461E21FD830004FA7D /* EnterNameViewController.swift */; };
+		27C46A491E21FE470004FA7D /* ClearNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C46A481E21FE470004FA7D /* ClearNavigationController.swift */; };
 		27D07EBF1E21AB20008FF12E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D07EBE1E21AB20008FF12E /* R.generated.swift */; };
 		D8B7B2B609EE306C0D3F8A43 /* Pods_Accio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774AB50B51DD4CB35EAD1D5 /* Pods_Accio.framework */; };
 		FDA407681687143B459361E7 /* Pods_AccioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7FDAA1B249FE9F1CCDB8F /* Pods_AccioTests.framework */; };
@@ -40,13 +48,21 @@
 		275756D11E2195BB00D54252 /* Accio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275756D41E2195BB00D54252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		275756D61E2195BB00D54252 /* SelectAirPodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAirPodViewController.swift; sourceTree = "<group>"; };
-		275756D91E2195BB00D54252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		275756D91E2195BB00D54252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Locate.storyboard; sourceTree = "<group>"; };
 		275756DB1E2195BB00D54252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275756DE1E2195BB00D54252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		275756E01E2195BB00D54252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275756E51E2195BB00D54252 /* AccioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		275756E91E2195BB00D54252 /* AccioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccioTests.swift; sourceTree = "<group>"; };
 		275756EB1E2195BB00D54252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C46A371E21F4010004FA7D /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		27C46A381E21F4010004FA7D /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		27C46A391E21F4010004FA7D /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		27C46A3A1E21F4010004FA7D /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		27C46A421E21F9920004FA7D /* UserDefaults+AirPods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+AirPods.swift"; sourceTree = "<group>"; };
+		27C46A441E21FADF0004FA7D /* Name.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Name.storyboard; sourceTree = "<group>"; };
+		27C46A461E21FD830004FA7D /* EnterNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		27C46A481E21FE470004FA7D /* ClearNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearNavigationController.swift; sourceTree = "<group>"; };
 		27D07EBE1E21AB20008FF12E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		6272C7216E9B2E2FCBB507BF /* Pods-Accio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Accio/Pods-Accio.debug.xcconfig"; sourceTree = "<group>"; };
 		83F7FDAA1B249FE9F1CCDB8F /* Pods_AccioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,17 +135,18 @@
 		275756D31E2195BB00D54252 /* Accio */ = {
 			isa = PBXGroup;
 			children = (
+				275756D81E2195BB00D54252 /* Locate.storyboard */,
+				27C46A441E21FADF0004FA7D /* Name.storyboard */,
 				275756D41E2195BB00D54252 /* AppDelegate.swift */,
 				275756D61E2195BB00D54252 /* SelectAirPodViewController.swift */,
+				27C46A481E21FE470004FA7D /* ClearNavigationController.swift */,
 				271601F91E21B9E300055834 /* LocatingViewController.swift */,
+				27C46A461E21FD830004FA7D /* EnterNameViewController.swift */,
 				271601FD1E21BA4000055834 /* AirPodBreathing.swift */,
 				271601FB1E21B9FA00055834 /* Side.swift */,
 				272F5C151E21BC9100E53277 /* Meter.swift */,
-				275756D81E2195BB00D54252 /* Main.storyboard */,
-				275756DB1E2195BB00D54252 /* Assets.xcassets */,
-				275756DD1E2195BB00D54252 /* LaunchScreen.storyboard */,
-				275756E01E2195BB00D54252 /* Info.plist */,
-				27D07EBE1E21AB20008FF12E /* R.generated.swift */,
+				27C46A421E21F9920004FA7D /* UserDefaults+AirPods.swift */,
+				27C46A3F1E21F4110004FA7D /* Assets */,
 			);
 			path = Accio;
 			sourceTree = "<group>";
@@ -141,6 +158,21 @@
 				275756EB1E2195BB00D54252 /* Info.plist */,
 			);
 			path = AccioTests;
+			sourceTree = "<group>";
+		};
+		27C46A3F1E21F4110004FA7D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				27C46A371E21F4010004FA7D /* Rubik-Bold.ttf */,
+				27C46A381E21F4010004FA7D /* Rubik-Light.ttf */,
+				27C46A391E21F4010004FA7D /* Rubik-Medium.ttf */,
+				27C46A3A1E21F4010004FA7D /* Rubik-Regular.ttf */,
+				275756DB1E2195BB00D54252 /* Assets.xcassets */,
+				275756DD1E2195BB00D54252 /* LaunchScreen.storyboard */,
+				275756E01E2195BB00D54252 /* Info.plist */,
+				27D07EBE1E21AB20008FF12E /* R.generated.swift */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				275756DF1E2195BB00D54252 /* LaunchScreen.storyboard in Resources */,
+				27C46A3E1E21F4010004FA7D /* Rubik-Regular.ttf in Resources */,
+				27C46A3B1E21F4010004FA7D /* Rubik-Bold.ttf in Resources */,
+				27C46A451E21FADF0004FA7D /* Name.storyboard in Resources */,
+				27C46A3C1E21F4010004FA7D /* Rubik-Light.ttf in Resources */,
+				27C46A3D1E21F4010004FA7D /* Rubik-Medium.ttf in Resources */,
 				275756DC1E2195BB00D54252 /* Assets.xcassets in Resources */,
-				275756DA1E2195BB00D54252 /* Main.storyboard in Resources */,
+				275756DA1E2195BB00D54252 /* Locate.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,13 +398,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C46A471E21FD830004FA7D /* EnterNameViewController.swift in Sources */,
 				275756D71E2195BB00D54252 /* SelectAirPodViewController.swift in Sources */,
+				27C46A431E21F9920004FA7D /* UserDefaults+AirPods.swift in Sources */,
 				275756D51E2195BB00D54252 /* AppDelegate.swift in Sources */,
 				272F5C161E21BC9100E53277 /* Meter.swift in Sources */,
 				271601FC1E21B9FA00055834 /* Side.swift in Sources */,
 				27D07EBF1E21AB20008FF12E /* R.generated.swift in Sources */,
 				271601FA1E21B9E300055834 /* LocatingViewController.swift in Sources */,
 				271601FE1E21BA4000055834 /* AirPodBreathing.swift in Sources */,
+				27C46A491E21FE470004FA7D /* ClearNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +430,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		275756D81E2195BB00D54252 /* Main.storyboard */ = {
+		275756D81E2195BB00D54252 /* Locate.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				275756D91E2195BB00D54252 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Locate.storyboard;
 			sourceTree = "<group>";
 		};
 		275756DD1E2195BB00D54252 /* LaunchScreen.storyboard */ = {

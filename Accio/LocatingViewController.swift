@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreBluetooth
 
 class LocatingViewController: UIViewController, AirPodBreathing {
 
@@ -15,10 +16,13 @@ class LocatingViewController: UIViewController, AirPodBreathing {
     @IBOutlet weak var leftBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightBottomConstraint: NSLayoutConstraint!
 
+    lazy var bluetoothManager: CBCentralManager = CBCentralManager(delegate: self, queue: nil)
+
     var locatingSide: Side?
 
     let locatingConstant: CGFloat = 100
     let inactiveConstant: CGFloat = -50
+    let airPodName = UserDefaults.Values.airPodName
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,5 +59,12 @@ class LocatingViewController: UIViewController, AirPodBreathing {
 
     func animateAirPods() {
         applyBreathTo(airPod: locatingSide == .right ? rightButton : leftButton)
+    }
+}
+
+extension LocatingViewController: CBCentralManagerDelegate {
+
+    func centralManagerDidUpdateState(_ central: CBCentralManager) {
+
     }
 }
